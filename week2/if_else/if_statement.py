@@ -10,10 +10,10 @@ if number > 0:
   print("The number is positive")
 
 #3
-# a = 33
-# b = 200
-# if b > a:
-# print("b is greater than a") # you will get an error
+a = 33
+b = 200
+if b < a:
+  print("a is greater than b") 
 
 # 4
 age = 20
