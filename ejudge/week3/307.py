@@ -1,0 +1,32 @@
+import math
+
+class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+    
+    def show(self):
+        print(f"({self.x}, {self.y})")
+    
+    def move(self, nx, ny):
+        self.x = nx
+        self.y = ny
+    
+    def dist(self, pt):
+        return math.sqrt((self.x - pt.x)**2 + (self.y - pt.y)**2)
+
+
+if __name__ == "__main__":
+    x1, y1 = map(int, input().split())
+    x2, y2 = map(int, input().split())
+    x3, y3 = map(int, input().split())
+
+    p1 = Point(x1, y1)
+    p1.show()
+
+    p1.move(x2, y2)
+    p1.show()
+
+    p2 = Point(x3, y3)
+    d = p1.dist(p2)
+    print(f"{d:.2f}")
