@@ -6,5 +6,5 @@ def fibonacci():
     a, b = b, a + b
 # Get first 100 Fibonacci numbers
 gen = fibonacci()
-for _ in range(100):
+for _ in range(10):
   print(next(gen))
