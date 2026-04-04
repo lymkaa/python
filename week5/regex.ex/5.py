@@ -1,6 +1,7 @@
 import re
 
-txt = "This Is A Test Example"
-m = re.findall(r"[A-Z][a-z]+", txt)
+txt = "Ddddjaddeb"
+m = re.match(r"^a.*b$", txt)
+c = re.match(r".*^a.*b$", txt)
 
 print("Matches found:", m)
