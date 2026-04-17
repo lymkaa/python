@@ -1,0 +1,4 @@
+DB_HOST = "localhost"
+DB_NAME = "phonebook_new"
+DB_USER = "postgres"
+DB_PASSWORD = "12345678"
