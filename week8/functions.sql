@@ -18,7 +18,7 @@ BEGIN
     RETURN QUERY
         SELECT id, username, phone
         FROM phonebook
-        ORDER BY username
+        ORDER BY id
         LIMIT lim OFFSET offs;
 END;
 $$ LANGUAGE plpgsql;

@@ -1,0 +1,85 @@
+[
+  {
+    "username": "Abraam Lincoln",
+    "email": null,
+    "birthday": "1809-02-12",
+    "group": "Other",
+    "phones": [
+      {
+        "phone": "+7-777-123-5690",
+        "type": "mobile"
+      }
+    ]
+  },
+  {
+    "username": "Ivan Zolo",
+    "email": "ivan@mail.ru",
+    "birthday": "1985-11-20",
+    "group": "Work",
+    "phones": [
+      {
+        "phone": "+1-555-0103",
+        "type": "home"
+      }
+    ]
+  },
+  {
+    "username": "Mama",
+    "email": "nogmail@gmail.com",
+    "birthday": null,
+    "group": "Friend",
+    "phones": [
+      {
+        "phone": "+77777777777",
+        "type": "mobile"
+      },
+      {
+        "phone": "+77001234567",
+        "type": "mobile"
+      }
+    ]
+  },
+  {
+    "username": "MrBeast",
+    "email": "mrbeast@gmail.com",
+    "birthday": "1998-05-07",
+    "group": "Friend",
+    "phones": [
+      {
+        "phone": "+1-555-0101",
+        "type": "mobile"
+      }
+    ]
+  },
+  {
+    "username": "pickme",
+    "email": null,
+    "birthday": null,
+    "group": "Other",
+    "phones": []
+  },
+  {
+    "username": "Trump",
+    "email": "donald@trump.com",
+    "birthday": null,
+    "group": "Other",
+    "phones": [
+      {
+        "phone": "+1-500-500-500-5000",
+        "type": "mobile"
+      }
+    ]
+  },
+  {
+    "username": "Zubarev",
+    "email": "zubarev@work.com",
+    "birthday": "1990-03-15",
+    "group": "Work",
+    "phones": [
+      {
+        "phone": "+1-555-0102",
+        "type": "work"
+      }
+    ]
+  }
+]
